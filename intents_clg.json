@@ -1,0 +1,146 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?","nice to meet you"],
+  "responses": ["Hello!","Hey!","What can I do for you?","Hello there","How can I help you?"]
+  },
+
+  {"tag": "your name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me N33V","I'm N33V","I'm N33V your virtual assistant"]
+  },
+
+
+  {"tag": "founder",
+  "patterns": ["who is founder","name of the founder","what's name of founder of college","who is the founder of this college"],
+  "responses": ["founder of Jain (Deemed-to-be University), Bengaluru is Dr. Chenraj Roychand ."]
+  },
+
+  {"tag": "COE ",
+  "patterns": ["who is COE of the college","name of the COE","what's name of COE of college","who is the COE of this college"],
+  "responses": ["COE of Jain (Deemed-to-be University), Bengaluru is Dr. Chenraj Roychand."]
+  },
+
+  {"tag": "Dean Academics",
+  "patterns": ["who is Dean Academics","name of the Dean Academics","what's name of Dean Academic of college","who is the Dean Academics of this college"],
+  "responses": ["Dean Academics of Jain (Deemed-to-be University), Bengaluru is Dr. G Geetha."]
+  },
+
+
+  {"tag": "program head branch branches vise branchlist branch vise training branch wise list  CSEbranch ETC branch Electonics branch department coordinator mechanical electrical",
+  "patterns": [ "who is program head of CS branch department",
+                "who is the program head",
+                "who is program head of ETC branch department",
+                "who is program head of Electrical branch department",
+                "who is program head of mechanical branch department",
+
+                "name of the program head of CS branch department",
+                "name of the program head of ETC branch department",
+                "name of the program head of Electrical branch department",
+                "name of the program head of mechanical branch department",
+
+                "what's name of program head of CS branch department",
+                "what's name of program head of ETC branch department",
+                "what's name of program head of Electrical branch department",
+                "what's name of program head of mechanical branch department"
+              
+              
+              ],
+  "responses": ["Here the list of branch vise faculties those who are program head \n1. Dr. Mahesh T. R. :\nDepartment of Computer Science and Engineering    \n2. Dr. Sunanda Das :\nDepartment of Cyber Security    \n3. Mr. Anthoniraj :\nDepartment of Software Engineering    \n4. Dr. Suresh Kallam:\nDepartment of IOT     \n5. Dr. Amit Kumar MIshra:\nDepartment of AI/ML    \n6. DR. Aditya Pai H:\nDepartment of AI/DE"]
+  },
+
+  {"tag": "college",
+  "patterns": ["what is name of college","college","what's name of college","which college"],
+  "responses": ["Name of the college is Jain (Deemed-to-be University), Bengaluru"]
+  },
+
+  {"tag": "courses branches",
+  "patterns": ["what courses are available", "how many courses are there in this college","how many courses","how many branches are there"],
+  "responses": ["Jain (Deemed-to-be University), Bengaluru is affiliated to NIBES and AIU and approved by UGC, to provide enviable higher education to students.\n Bachelors Degree in Computer Science Enginerring.\n Bachelors in Cyber Security.\n Bachelors in Software Engineering \n Bachelors in IOT. \n Bachelors in AI/ML \n Bachelors in AI/DE"]
+  },
+
+  {"tag": "course Duration",
+  "patterns": ["how long will be Btech or MBA course", "how long will it take to complete Btech or MBA course"],
+  "responses": ["Our college offers 4 year long Btech course and 2 year long MBA course."]
+  },
+
+  {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","where is college"],
+  "responses": ["Jain (Deemed-to-be University), is located at Kanakpura, Bengaluru",
+                "College is located at Jakkasandra Post."]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year.and eight semesters in four years"]
+  },
+
+  {"tag": "semesterDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentRequirements studentrequired admissionrequired admissionprocess",
+  "patterns": ["what are the student requirements for admission","criteria for admission","admission process","procedure for admission","entry requirements","admission requirements"],
+  "responses": ["JET meritorious rank\n i) The Candidate should be an Indian National. \n ii) Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Technical Vocational subject or Computer Science or Information Technology or Informatics Practices or Engineering Graphics or Business Studies and obtained at least 45 % marks (at least 40 % marks, in case of Backward Class categories, Economically Weaker Section and Persons with Disability category candidates belonging to Maharashtra State), in the above ¨ subjects taken together; and the Candidate should have appeared in all the subjects in CET and should obtain non zero score in CET conducted by the Competent Authority.\n OR \n ii) Passed Diploma in Engineering and Technology and obtained at least 45 % marks (at least 40 % marks, in case of Backward Class categories, Economically Weaker Section and Persons with Disability category candidates belonging to Maharashtra State). \n\n 2) All India Candidature Candidates, Jammu and Kashmir Migrant Candidature Candidates. \n i) The Candidate should be an Indian National. \n ii) Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical Vocational subject or Computer Science or Information Technology or Informatics Practices or Agriculture or Engineering Graphics or Business Studies and obtained at least 45 % marks (at least 40 % marks, in case of Backward Class categories, Economically Weaker Section and Persons with Disability category candidates belonging to Maharashtra State) in the above subjects taken together; and should obtain non zero positive score in JEE (Main) B.E./B.Tech or the candidate should have appeared in all the subjects in CET and should obtain non zero score in CET conducted by the Competent Authority. However preference shall be given to the candidate obtaining non zero positive score in JEE (Main) B.E./B.Tech over the candidates who obtained non zero score in CET. \n OR \n ii) Passed Diploma in Engineering and Technology and obtained at least 45 % marks (at least 40 % marks, in case of Backward Class categories, Economically Weaker Section and Persons with Disability category candidates belonging to Maharashtra State ). \n 3) NRI / OCI / PIO, Children of Indian workers in the Gulf countries, Foreign National. \n i) The candidate should have passed the HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical Vocational subject or Computer Science or Information Technology or Informatics Practices or Agriculture or Engineering Graphics or Business Studies, and obtained at least 45 % marks in the above subjects taken together. \n ii) Any other criterion declared from time to time by the appropriate authority as defined under the Act."]
+  },
+
+  {"tag": "document Requirements required documents",
+  "patterns": ["what are the documents requirements for admission","document requirements","admission document requirements"],
+  "responses": ["JET Registration Letter \n JET allotment letter (for CAP) \n COMEDK / JEE Main, 2024 Score Card \n S.C. (Std. X) Mark sheet \n S.S.C. Mark sheet \n S.C. Diploma Certificate \n Leaving certificate \n Caste Certificate \n Caste Validity \n Gap certificate if passed before 2021 \n Eligibility Certificate(for other than MS candidate) \n Domicile certificate \n Nationality Certificate \n Any other document mentioned as per JET \n Aadhar Card Photocopy \n Bank Passbook Photocopy (Aadhar linked A/C Number)"]
+  },
+
+  {"tag": "classes how long",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be 2 or 3 classes per day. Each class will be of 2 hours."]
+  },
+
+  {"tag": "teaching Style",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["Our college has different teaching patterns than other colleges. We adopt a teaching methodology, following the self learning techniques which came after Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."]
+  },
+
+  {"tag": "exam eams pattern",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+  },
+
+  {"tag": "hours working ",
+  "patterns": ["what are your working hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 09:00 am to 3:00 pm only."]
+  },
+
+  {"tag": "Activities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library,  digital classes , discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee fees",
+  "patterns": ["how much is the college fee","what is the fee structure","what is the fees of the college","how much is the fees"],
+  "responses": ["\nCATEGORY        FEES in INR \nOPEN              3,75,000 \nOBC/EWS           2,81,250 \nSBC/VJ/NT/TFWS    1,87,500 \nSC/ST             1,87,500"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving"," byy","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "ok okay",
+    "patterns": ["ok thank you","okay okay","good ","ok","impressive"],
+    "responses": ["thank you so much", "nice to hear", "Welcome "]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
